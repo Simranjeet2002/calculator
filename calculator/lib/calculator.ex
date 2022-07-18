@@ -9,7 +9,7 @@ defmodule Calculator do
          {:add,value} ->  current_value + value
          {:sub,value} ->  current_value - value
          {:mul,value} ->  current_value * value
-         {:div,value} ->  current_value / value
+         {:div,value} ->  current_value / value //div
 
          invalid_request -> IO.puts("INVALID REQUEST -> #{inspect invalid_request}")
          current_value
